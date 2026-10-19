@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4eee4">
+  <meta name="description" content="Join Houssem & Maha for a special evening of love, dinner, and Hadhra. October 24, 2026 at 19:00.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Houssem & Maha — You're Invited">
+  <meta property="og:description" content="A special day, our favorite people, one unforgettable night. Join us for dinner and Hadhra on October 24, 2026.">
+  <meta property="og:image" content="https://YOUR-DOMAIN.example/og-wedding.jpg">
+  <meta property="og:url" content="https://YOUR-PUBLISHED-SITE.example/">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Houssem & Maha — You're Invited</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ivory: #f4eee4;
+      --paper: #fffaf3;
+      --sand: #e6d8c6;
+      --champagne: #c8b39a;
+      --burgundy: #783f46;
+      --ink: #382d2a;
+      --muted: #77675d;
+      --line: rgba(120, 63, 70, .20);
+      --shadow: 0 24px 70px rgba(56, 45, 42, .10);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0; background: var(--ivory); color: var(--ink);
+      font-family: "DM Sans", system-ui, sans-serif; line-height: 1.6;
+    }
+    a { color: inherit; }
+    .page { width: min(100% - 28px, 760px); margin: 0 auto; padding: 18px 0 42px; }
+    .topline {
+      display: flex; align-items: center; justify-content: space-between; gap: 12px;
+      color: var(--muted); font-size: .72rem; letter-spacing: .13em; text-transform: uppercase;
+      padding: 6px 2px 18px;
+    }
+    .topline .seal { color: var(--burgundy); font-weight: 700; }
+    .invitation {
+      position: relative; overflow: hidden; border: 1px solid rgba(120,63,70,.15);
+      border-radius: 24px; background: var(--paper); box-shadow: var(--shadow);
+    }
+    .hero {
+      position: relative; text-align: center; padding: clamp(32px, 8vw, 70px) 22px 34px;
+      isolation: isolate;
+    }
+    .hero::before, .hero::after {
+      content: "✳"; position: absolute; color: var(--champagne); opacity: .65;
+      font-size: 2rem; z-index: -1;
+    }
+    .hero::before { left: 8%; top: 13%; transform: rotate(-12deg); }
+    .hero::after { right: 8%; bottom: 18%; transform: rotate(18deg); }
+    .eyebrow {
+      margin: 0 0 14px; color: var(--burgundy); font-size: .72rem;
+      font-weight: 700; letter-spacing: .18em; text-transform: uppercase;
+    }
+    h1, h2, .script { font-family: "Playfair Display", Georgia, serif; font-weight: 500; }
+    h1 { margin: 0; font-size: clamp(2.6rem, 10vw, 5.2rem); line-height: 1.02; letter-spacing: -.045em; }
+    .amp { color: var(--burgundy); font-style: italic; }
+    .rule { width: 74px; height: 1px; background: var(--champagne); margin: 24px auto; }
+    .guest-greeting { font-size: 1.03rem; margin: 0 auto 8px; }
+    .lead { max-width: 490px; margin: 0 auto; color: var(--muted); font-size: .98rem; }
+    .ribbon {
+      display: inline-block; margin-top: 24px; padding: 8px 13px; border: 1px solid var(--line);
+      border-radius: 999px; color: var(--burgundy); font-size: .76rem; letter-spacing: .06em;
+    }
+    .details { padding: 0 22px 28px; }
+    .details-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .detail {
+      min-width: 0; background: var(--ivory); border-radius: 15px; padding: 17px 15px;
+    }
+    .detail .label { display: block; color: var(--muted); font-size: .68rem; letter-spacing: .13em; text-transform: uppercase; margin-bottom: 5px; }
+    .detail strong { display: block; font-size: 1rem; line-height: 1.35; }
+    .detail .sub { display: block; color: var(--muted); font-size: .82rem; margin-top: 4px; }
+    .section { padding: 28px 22px; border-top: 1px solid var(--line); }
+    .section-kicker { margin: 0 0 7px; color: var(--burgundy); font-size: .68rem; letter-spacing: .16em; text-transform: uppercase; font-weight: 700; }
+    h2 { margin: 0 0 12px; font-size: clamp(1.65rem, 6vw, 2.25rem); line-height: 1.15; }
+    .section p { margin: 0; color: var(--muted); }
+    .timeline { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 20px; }
+    .moment { padding: 18px; border: 1px solid var(--line); border-radius: 15px; }
+    .moment .emoji { font-size: 1.45rem; display: block; margin-bottom: 8px; }
+    .moment h3 { margin: 0 0 6px; font-family: "Playfair Display", Georgia, serif; font-size: 1.25rem; font-weight: 500; }
+    .moment p { font-size: .9rem; }
+    .note { background: #efe4d7; border-radius: 15px; padding: 17px; margin-top: 15px; color: var(--ink); }
+    .note p { color: var(--ink); font-size: .92rem; }
+    .actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 19px; }
+    .button {
+      display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 49px;
+      border-radius: 999px; padding: 12px 15px; font: 600 .9rem "DM Sans", sans-serif;
+      text-decoration: none; border: 1px solid var(--burgundy); transition: transform .18s ease, background .18s ease;
+    }
+    .button:hover { transform: translateY(-2px); }
+    .button.primary { background: var(--burgundy); color: white; }
+    .button.secondary { background: transparent; color: var(--burgundy); }
+    .footer { text-align: center; padding: 30px 20px 34px; border-top: 1px solid var(--line); }
+    .footer .script { font-size: 1.7rem; color: var(--burgundy); margin: 0 0 6px; }
+    .footer p { margin: 0; color: var(--muted); font-size: .86rem; }
+    .small-print { margin-top: 18px !important; font-size: .72rem !important; opacity: .8; }
+    .fade-in { animation: rise .7s both; }
+    @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    @media (max-width: 460px) {
+      .page { width: min(100% - 18px, 760px); padding-top: 10px; }
+      .invitation { border-radius: 18px; }
+      .topline { font-size: .62rem; }
+      .details-grid, .timeline { grid-template-columns: 1fr; }
+      .detail { padding: 15px; }
+      .section { padding: 25px 18px; }
+      .details { padding: 0 18px 22px; }
+      .actions { grid-template-columns: 1fr; }
+      .button { width: 100%; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page fade-in">
+    <div class="topline">
+      <span class="seal">A little note from us</span>
+      <span>Save the evening · 2026</span>
+    </div>
+
+    <article class="invitation">
+      <header class="hero">
+        <p class="eyebrow">A celebration of love, friendship & good times</p>
+        <h1>Houssem <span class="amp">&</span><br>Maha</h1>
+        <div class="rule" aria-hidden="true"></div>
+        <p class="guest-greeting" id="greeting">Dear friend, you're invited.</p>
+        <p class="lead">Some moments are even better when shared with the people who matter most. We'd love for you to be part of ours.</p>
+        <span class="ribbon">YOUR PRESENCE IS THE PRESENT</span>
+      </header>
+
+      <section class="details" aria-label="Wedding details">
+        <div class="details-grid">
+          <div class="detail">
+            <span class="label">The date</span>
+            <strong>Saturday, October 24, 2026</strong>
+            <span class="sub">Mark your calendar</span>
+          </div>
+          <div class="detail">
+            <span class="label">Arrival time</span>
+            <strong>19:00 (7:00 PM)</strong>
+            <span class="sub">Come ready to celebrate</span>
+          </div>
+          <div class="detail">
+            <span class="label">The venue</span>
+            <strong>Family's house</strong>
+            <span class="sub">Open directions below</span>
+          </div>
+          <div class="detail">
+            <span class="label">Dress code</span>
+            <strong>No strict dress code</strong>
+            <span class="sub">Come as you feel comfortable</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <p class="section-kicker">The evening's agenda</p>
+        <h2>Good food. Great people. Then… Hadhra.</h2>
+        <p>We've got a lovely evening planned. Your only assignment is to show up and enjoy it.</p>
+        <div class="timeline">
+          <div class="moment">
+            <span class="emoji" aria-hidden="true">🍽️</span>
+            <h3>First: Dinner</h3>
+            <p>Good food, familiar faces, and absolutely no pretending you're not considering seconds.</p>
+          </div>
+          <div class="moment">
+            <span class="emoji" aria-hidden="true">🥁</span>
+            <h3>Next: Hadhra</h3>
+            <p>The rhythm takes over, the energy goes up, and your ability to stay seated may be tested.</p>
+          </div>
+        </div>
+        <div class="note">
+          <p><strong>Our only request:</strong> bring your good energy, come hungry, and help us make a memory worth talking about long after the music stops.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <p class="section-kicker">Getting there</p>
+        <h2>We'll save you a seat. You find the place.</h2>
+        <p>Tap the button below to open the venue in Google Maps.</p>
+        <div class="actions">
+          <a class="button primary" href="https://maps.app.goo.gl/DGaYaorWKYxzpLVs5?g_st=ac" target="_blank" rel="noopener noreferrer">
+            <span aria-hidden="true">↗</span> Get directions
+          </a>
+          <button class="button secondary" id="shareButton" type="button">
+            <span aria-hidden="true">↗</span> Share this invitation
+          </button>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p class="script">With love,</p>
+        <h2>Houssem & Maha</h2>
+        <p>We can't wait to celebrate with you.</p>
+        <p class="small-print">No RSVP needed. Just bring yourself.</p>
+      </footer>
+    </article>
+  </main>
+
+  <script>
+    // Personalize with a URL such as https://your-site.example/?to=Amine
+    const params = new URLSearchParams(window.location.search);
+    const guestName = (params.get("to") || "").trim().slice(0, 80);
+    const greeting = document.getElementById("greeting");
+    if (guestName) {
+      // Use textContent to avoid treating a name as HTML.
+      greeting.textContent = `Dear ${guestName}, we'd love to celebrate with you.`;
+      document.title = `${guestName}, you're invited! | Houssem & Maha`;
+    }
+
+    const shareButton = document.getElementById("shareButton");
+    shareButton.addEventListener("click", async () => {
+      const shareData = {
+        title: "Houssem & Maha — You're Invited",
+        text: guestName
+          ? `${guestName}, you're invited to celebrate with Houssem & Maha!`
+          : "You're invited to celebrate with Houssem & Maha!",
+        url: window.location.href
+      };
+      if (navigator.share) {
+        try { await navigator.share(shareData); } catch (error) {
+          if (error.name !== "AbortError") copyLink();
+        }
+      } else {
+        copyLink();
+      }
+    });
+
+    async function copyLink() {
+      try {
+        await navigator.clipboard.writeText(window.location.href);
+        shareButton.textContent = "✓ Link copied";
+      } catch {
+        window.prompt("Copy this invitation link:", window.location.href);
+      }
+    }
+  </script>
+</body>
+</html>
